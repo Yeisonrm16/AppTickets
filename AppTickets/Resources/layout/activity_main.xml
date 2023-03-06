@@ -1,0 +1,66 @@
+<?xml 
+version="1.0" encoding="utf-8"?><LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_margin="60dp"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="LOGIN"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"/>
+
+<ImageView
+android:src="@drawable/log"
+android:layout_width="250dp"
+android:layout_height="120dp"
+android:id="@+id/imageView1" />
+    
+ <EditText
+android:inputType="textMultiLine"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:minWidth="25px"
+android:minHeight="25px"
+android:hint="Usuario"
+android:id="@+id/txtUsuario" />
+
+<EditText
+android:inputType="textMultiLine"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Clave"
+android:id="@+id/txtClave" />
+
+<Button
+android:text="Ingresar"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:backgroundTint="@color/colorPrimary"
+android:id="@+id/btnIngreso" />
+
+<Button
+android:text="Registrar"        
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:backgroundTint="@color/colorPrimary"
+android:id="@+id/btnRegistrar" />
+
+<Button
+android:text="Programador Full Stack"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:backgroundTint="@color/colorPrimary"
+android:id="@+id/btnProgramador" />
+
+</LinearLayout>

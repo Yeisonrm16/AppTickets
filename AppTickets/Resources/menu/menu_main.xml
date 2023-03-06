@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android ="http://schemas.android.com/apk/res/android">
+  <item
+    android:id="@+id/icAdd"
+    android:icon="@mipmap/ic_add"
+    android:showAsAction="ifRoom"
+    android:title="Agregar" />
+	
+	<item
+		android:id="@+id/Insertar"
+		android:title="Insertar Estudiante"/>
+		
+	<item
+		android:id="@+id/Buscar"
+		android:title="Buscar Estudiante"/>
+
+	<item
+		android:id="@+id/Eliminar"
+		android:title="Eliminar Estudiante"/>
+
+	<item
+		android:id="@+id/Modificar"
+		android:title="Modificar Estudiante"/>
+	
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_margin="40dp"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<ImageView
+android:src="@drawable/crear"
+android:layout_width="250dp"
+android:layout_height="120dp"
+android:id="@+id/imageView1" />
+<TextView
+android:text="REGISTRAR ADMINISTRADOR"
+android:gravity="center"
+android:textAppearance="?android:attr/textAppearanceLarge"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/txtviewRegistrar" />
+<EditText
+android:hint="Usuario"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/txtAdmUsuario" />
+<EditText
+android:hint="Contraseña"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:inputType="textPassword"
+android:id="@+id/txtAdmClave" />
+<Button
+android:text="CREAR NUEVO ADMINISTRADOR"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/btnRegistrarUsuarioNuevo"
+android:background="#82F5E9" />
+<Button
+android:text="VOLVER"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/btnVolver"
+/>
+
+</LinearLayout>

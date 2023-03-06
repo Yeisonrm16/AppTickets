@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="40dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ImageView
+android:src="@drawable/buscarRepa"
+android:layout_width="260dp"
+android:layout_height="120dp"
+android:id="@+id/imageView1" />
+
+<TextView
+android:text="ELIMINAR ESTUDIANTE"
+android:gravity="center"
+android:textAppearance="?android:attr/textAppearanceLarge"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/txtviewRegistrar" />
+
+<EditText
+android:hint="Escriba aquí la cédula"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/txtCedula" />   
+    
+<Button
+        android:text="Eliminar Estudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:id="@+id/btnEliminarEst" />
+
+<Button
+        android:text="Volver al menú"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:id="@+id/btnVolverMenu" />
+
+</LinearLayout>

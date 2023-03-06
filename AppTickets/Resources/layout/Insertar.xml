@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_margin="40dp"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+    
+<ImageView
+android:src="@drawable/reparacion"
+android:layout_width="260dp"
+android:layout_height="120dp"
+android:id="@+id/imageView1" />
+    
+<TextView
+android:text="INSERTAR ESTUDIANTE"
+android:gravity="center"
+android:textAppearance="?android:attr/textAppearanceLarge"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/txtviewRepairs" />
+    
+<EditText
+android:hint="Cédula del estudiante"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:id="@+id/txtCedula" />
+
+<EditText
+android:hint="Nombre del estudiante"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:inputType="textPassword"
+android:id="@+id/txtNombreEst"
+/>
+    
+<EditText
+android:hint="Carrera que estudia"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:inputType="textPassword"
+android:id="@+id/txtCarrera"
+/>
+    
+<EditText
+android:hint="Celular del estudiante"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:inputType="textPassword"
+android:id="@+id/txtCelular"
+/>     
+    
+<Button
+        android:text="Insertar Estudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:id="@+id/btnInsertarEst" />
+            
+<Button
+        android:text="Volver al menú"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorPrimary"
+        android:id="@+id/btnVolverMenu" />
+</LinearLayout>
